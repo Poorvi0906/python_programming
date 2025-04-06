@@ -28,6 +28,7 @@ def list_operations():
         elif choice == 4:
                 print(f"Current list: {my_list}")
         elif choice == 5:
+            print("Exiting the list. Goodbye!")
            break
     else:
         print("Invalid choice, please try again.")
