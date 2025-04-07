@@ -6,6 +6,7 @@ data = { 'Name': ['Alice', 'Bob', 'Charlie', 'David'],
 df = pd.DataFrame(data)
 print("DataFrame from Scratch:")
 print(df)
-# Adding a new column 'Bonus' (10% of Salary) df['Bonus']=df['Salary'] * 0.10
+# Adding a new column 'Bonus' (10% of Salary) 
+df['Bonus']=df['Salary'] * 0.10
 print("\nDataFrame after adding 'Bonus' column:")
 print(df)
