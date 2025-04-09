@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import Normalizer, MinMaxScaler
 
-df = pd.read_csv(r'C:\Path\To\Your\File\3Salary_Data.csv')
+df = pd.read_csv(r"C:\Users\poorv\Downloads\3Salary_Data.csv")
 
 print("Original Dataset:")
 print(df.head())
