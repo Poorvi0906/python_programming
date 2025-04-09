@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv(r'C:\Path\To\Your\File\4laptop.csv')
+df = pd.read_csv(r"C:\Users\poorv\Downloads\4laptops.csv")
 
 print("Dataset:")
 print(df.head())
