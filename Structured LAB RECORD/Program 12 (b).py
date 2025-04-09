@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r'C:\Path\To\Your\File\laptop_data.csv')
+df = pd.read_csv(r"C:\Users\poorv\Downloads\4laptops_Updated_Price.csv")
 
 screen_size_column = "Screen_size_inches"  
 if screen_size_column in df.columns:
