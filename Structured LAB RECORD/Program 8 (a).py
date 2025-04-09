@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv(r'C:\Path\To\Your\File\2Salary.csv')
+df = pd.read_csv(r'C:\Users\poorv\Downloads\2salary.csv')
 print("Dataset:")
 print(df)
 
